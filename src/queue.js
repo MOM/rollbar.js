@@ -1,7 +1,7 @@
 var _ = require('./utility');
 
 /*
- * Queue - an object which handles which handles a queue of items to be sent to Rollbar.
+ * Queue - an object which handles a queue of items to be sent to Rollbar.
  *   This object handles rate limiting via a passed in rate limiter, retries based on connection
  *   errors, and filtering of items based on a set of configurable predicates. The communication to
  *   the backend is performed via a given API object.
